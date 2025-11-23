@@ -8,23 +8,23 @@
     "net9.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\juanp\\.nuget\\packages\\": {},
+    "C:\\Users\\oscsa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juanp\\Source\\Repos\\LocaPiru\\SistemaInventario\\SistemaInventario.csproj",
+      "projectUniqueName": "C:\\Users\\oscsa\\Source\\Repos\\LocaPiru\\SistemaInventario\\SistemaInventario.csproj",
       "projectName": "SistemaInventario",
-      "projectPath": "C:\\Users\\juanp\\Source\\Repos\\LocaPiru\\SistemaInventario\\SistemaInventario.csproj",
-      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juanp\\Source\\Repos\\LocaPiru\\SistemaInventario\\obj\\",
+      "projectPath": "C:\\Users\\oscsa\\Source\\Repos\\LocaPiru\\SistemaInventario\\SistemaInventario.csproj",
+      "packagesPath": "C:\\Users\\oscsa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oscsa\\Source\\Repos\\LocaPiru\\SistemaInventario\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oscsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
