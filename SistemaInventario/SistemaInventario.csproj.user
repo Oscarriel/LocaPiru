@@ -7,5 +7,11 @@
     <Compile Update="FormMovimentos.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormularioPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

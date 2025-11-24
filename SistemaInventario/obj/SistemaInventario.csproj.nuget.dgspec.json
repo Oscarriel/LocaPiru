@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oscsa\\Source\\Repos\\LocaPiru\\SistemaInventario\\SistemaInventario.csproj": {}
+    "C:\\Users\\oscsa\\OneDrive\\Escritorio\\Invetnario\\SistemaInventario\\SistemaInventario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oscsa\\Source\\Repos\\LocaPiru\\SistemaInventario\\SistemaInventario.csproj": {
+    "C:\\Users\\oscsa\\OneDrive\\Escritorio\\Invetnario\\SistemaInventario\\SistemaInventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oscsa\\Source\\Repos\\LocaPiru\\SistemaInventario\\SistemaInventario.csproj",
+        "projectUniqueName": "C:\\Users\\oscsa\\OneDrive\\Escritorio\\Invetnario\\SistemaInventario\\SistemaInventario.csproj",
         "projectName": "SistemaInventario",
-        "projectPath": "C:\\Users\\oscsa\\Source\\Repos\\LocaPiru\\SistemaInventario\\SistemaInventario.csproj",
+        "projectPath": "C:\\Users\\oscsa\\OneDrive\\Escritorio\\Invetnario\\SistemaInventario\\SistemaInventario.csproj",
         "packagesPath": "C:\\Users\\oscsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oscsa\\Source\\Repos\\LocaPiru\\SistemaInventario\\obj\\",
+        "outputPath": "C:\\Users\\oscsa\\OneDrive\\Escritorio\\Invetnario\\SistemaInventario\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
