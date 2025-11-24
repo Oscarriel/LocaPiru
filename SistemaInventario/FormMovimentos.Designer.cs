@@ -36,8 +36,6 @@
             textCantidad = new TextBox();
             comboBox1 = new ComboBox();
             btnRegistrar = new Button();
-            btnModificar = new Button();
-            btnEliminar = new Button();
             lblLista = new Label();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -110,33 +108,13 @@
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(139, 257);
+            btnRegistrar.Location = new Point(340, 258);
             btnRegistrar.Name = "btnRegistrar";
             btnRegistrar.Size = new Size(94, 29);
             btnRegistrar.TabIndex = 8;
             btnRegistrar.Text = "Registrar ";
             btnRegistrar.UseVisualStyleBackColor = true;
             btnRegistrar.Click += btnRegistrar_Click;
-            // 
-            // btnModificar
-            // 
-            btnModificar.Location = new Point(355, 257);
-            btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(94, 29);
-            btnModificar.TabIndex = 9;
-            btnModificar.Text = "Modificar";
-            btnModificar.UseVisualStyleBackColor = true;
-            btnModificar.Click += btnModificar_Click;
-            // 
-            // btnEliminar
-            // 
-            btnEliminar.Location = new Point(568, 257);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(94, 29);
-            btnEliminar.TabIndex = 10;
-            btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = true;
-            btnEliminar.Click += btnEliminar_Click;
             // 
             // lblLista
             // 
@@ -165,8 +143,6 @@
             ClientSize = new Size(747, 561);
             Controls.Add(dataGridView1);
             Controls.Add(lblLista);
-            Controls.Add(btnEliminar);
-            Controls.Add(btnModificar);
             Controls.Add(btnRegistrar);
             Controls.Add(comboBox1);
             Controls.Add(textCantidad);
@@ -193,8 +169,6 @@
         private TextBox textCantidad;
         private ComboBox comboBox1;
         private Button btnRegistrar;
-        private Button btnModificar;
-        private Button btnEliminar;
         private Label lblLista;
         private DataGridView dataGridView1;
     }

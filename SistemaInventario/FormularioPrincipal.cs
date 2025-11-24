@@ -35,5 +35,20 @@ namespace SistemaInventario
                 ventana.ShowDialog();
             }
         }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            {
+                FormularioProductos ventana = new FormularioProductos();
+
+                ventana.ShowDialog();
+            }
+        }
+
+        private void btnEventos_Click(object sender, EventArgs e)
+        {
+            FormularioReportes ventana = new FormularioReportes();
+            ventana.ShowDialog();
+        }
     }
 }

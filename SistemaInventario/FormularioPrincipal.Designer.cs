@@ -30,14 +30,13 @@
         {
             btnMovimientos = new Button();
             btnProductos = new Button();
-            btnEventos = new Button();
-            btnCategorias = new Button();
+            btnReportes = new Button();
             label1 = new Label();
             SuspendLayout();
             // 
             // btnMovimientos
             // 
-            btnMovimientos.Location = new Point(272, 168);
+            btnMovimientos.Location = new Point(273, 196);
             btnMovimientos.Name = "btnMovimientos";
             btnMovimientos.Size = new Size(243, 76);
             btnMovimientos.TabIndex = 0;
@@ -47,30 +46,23 @@
             // 
             // btnProductos
             // 
-            btnProductos.Location = new Point(272, 89);
+            btnProductos.Location = new Point(273, 117);
             btnProductos.Name = "btnProductos";
             btnProductos.Size = new Size(243, 73);
             btnProductos.TabIndex = 1;
             btnProductos.Text = "Gestion de productos";
             btnProductos.UseVisualStyleBackColor = true;
+            btnProductos.Click += btnProductos_Click;
             // 
-            // btnEventos
+            // btnReportes
             // 
-            btnEventos.Location = new Point(272, 336);
-            btnEventos.Name = "btnEventos";
-            btnEventos.Size = new Size(243, 89);
-            btnEventos.TabIndex = 2;
-            btnEventos.Text = "Eventos";
-            btnEventos.UseVisualStyleBackColor = true;
-            // 
-            // btnCategorias
-            // 
-            btnCategorias.Location = new Point(272, 250);
-            btnCategorias.Name = "btnCategorias";
-            btnCategorias.Size = new Size(243, 80);
-            btnCategorias.TabIndex = 3;
-            btnCategorias.Text = "Categorias";
-            btnCategorias.UseVisualStyleBackColor = true;
+            btnReportes.Location = new Point(273, 278);
+            btnReportes.Name = "btnReportes";
+            btnReportes.Size = new Size(243, 89);
+            btnReportes.TabIndex = 2;
+            btnReportes.Text = "Reportes";
+            btnReportes.UseVisualStyleBackColor = true;
+            btnReportes.Click += btnEventos_Click;
             // 
             // label1
             // 
@@ -89,8 +81,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
-            Controls.Add(btnCategorias);
-            Controls.Add(btnEventos);
+            Controls.Add(btnReportes);
             Controls.Add(btnProductos);
             Controls.Add(btnMovimientos);
             Name = "FormularioPrincipal";
@@ -104,8 +95,7 @@
 
         private Button btnMovimientos;
         private Button btnProductos;
-        private Button btnEventos;
-        private Button btnCategorias;
+        private Button btnReportes;
         private Label label1;
     }
 }

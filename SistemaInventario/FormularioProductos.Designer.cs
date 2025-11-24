@@ -49,6 +49,7 @@
             lblStock.Size = new Size(45, 20);
             lblStock.TabIndex = 0;
             lblStock.Text = "Stock";
+            lblStock.Click += lblStock_Click;
             // 
             // lblPrecio
             // 
@@ -58,6 +59,7 @@
             lblPrecio.Size = new Size(50, 20);
             lblPrecio.TabIndex = 1;
             lblPrecio.Text = "Precio";
+            lblPrecio.Click += lblPrecio_Click;
             // 
             // lblNombre
             // 
@@ -75,6 +77,7 @@
             txtPrecio.Name = "txtPrecio";
             txtPrecio.Size = new Size(125, 27);
             txtPrecio.TabIndex = 3;
+            txtPrecio.TextChanged += txtPrecio_TextChanged;
             // 
             // txtStock
             // 
@@ -82,6 +85,7 @@
             txtStock.Name = "txtStock";
             txtStock.Size = new Size(125, 27);
             txtStock.TabIndex = 4;
+            txtStock.TextChanged += txtStock_TextChanged;
             // 
             // txtNombre
             // 
@@ -89,6 +93,7 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(125, 27);
             txtNombre.TabIndex = 5;
+            txtNombre.TextChanged += txtNombre_TextChanged;
             // 
             // btnGuardar
             // 
@@ -98,6 +103,7 @@
             btnGuardar.TabIndex = 6;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // btnEliminar
             // 
@@ -105,8 +111,9 @@
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(94, 29);
             btnEliminar.TabIndex = 7;
-            btnEliminar.Text = "button2";
+            btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnEditar
             // 
@@ -116,14 +123,15 @@
             btnEditar.TabIndex = 8;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(215, 233);
+            dataGridView1.Location = new Point(23, 233);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(300, 188);
+            dataGridView1.Size = new Size(765, 188);
             dataGridView1.TabIndex = 9;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
